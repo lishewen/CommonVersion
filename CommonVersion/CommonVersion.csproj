@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary4NetCore\ClassLibrary4NetCore.csproj" />
+    <ProjectReference Include="..\ClassLibrary4NetStandard\ClassLibrary4NetStandard.csproj" />
+  </ItemGroup>
+  <Import Project="..\Versions.props" />
 </Project>
